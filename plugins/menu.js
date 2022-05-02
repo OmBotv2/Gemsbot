@@ -27,7 +27,7 @@ const defaultMenu = {
   header: '╭─ *〘 %category 〙*\n│',
     body: '├ %cmd %islimit %isPremium',
   footer: '│\n╰────˧\n',
-  after: `  ${'```✨ʜᴏᴩᴇ ʏᴏᴜ ᴇɴᴊᴏʏɪɴɢ ᴛʜᴇ ʙᴏᴛ✨```'}`,
+  after: `  ${'```✨BOT DI BUAT OLEH ALWI HIKARI - BOT - MD✨```'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
