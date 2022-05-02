@@ -133,7 +133,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 
 ${wish()}, ${name}
 
-*⇓ HAI SAYA BOT HIKARI - BOT MENU ADA DI BAWA TERIMAKASIH ⇓*`, text.trim(), `${timeimg()}`, [
+*⇓ HAI SAYA BOT YG DI CIPTAKAN OLEH OWNER BERNAMA ALWI, MENU NYA ADA DI BAWA YAA OM/TANTE/KAKAK/ADEK/NENEK/KAKEK ⇓*`, text.trim(), `${timeimg()}`, [
       [`ʙᴏᴛ ɪɴғᴏ`, `${usedPrefix}botinfo`],
       [`ᴩʀᴏғɪʟᴇ`, `${usedPrefix}profile`]
     ], m, {asLocation: true})
