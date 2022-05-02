@@ -1,14 +1,13 @@
 let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 conn.sendHydrated(m.chat, 
-`*––––––『 DONATE 』––––––*`, 
-`🇮🇳 ᴅᴏᴍᴇsᴛɪᴄ ᴩᴀʏ :
-⮕ ₹ ᴜᴩɪ – dineshvalor@apl
+`*––––––『 DONASI 』––––––*`, 
+`🇮🇩 METODE PEMBAYARAN :
+⮕ VIA GOPAY DANA – BY ALWI
 ★ sᴄᴀɴ ǫʀ ᴄᴏᴅᴇ ﹠ ᴅᴏɴᴀᴛᴇ ᴠɪᴀ
-ᴩᴀʏᴛᴍ, ᴀᴍᴀᴢᴏɴ ᴩᴀʏ , ʙʜɪᴍ, ғʀᴇᴇᴄʜᴀʀɢᴇ, ɢᴩᴀʏ ﹙ɢᴏᴏɢʟᴇ-ᴩᴀʏ﹚, ᴍᴏʙɪᴋᴡɪᴋ, ᴍʏᴊɪᴏ, ᴩʜᴏɴᴇᴩᴇ, ᴇᴛᴄ.
-
-💱 ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴩᴀʏ :
+PULSA, DANA , GOPAY, TERIMA KASIH, BY ALWI.
+💱 GOPAY DANA PULSA :
 ⮕ PᴀʏPᴀʟ
-★ ᴄʟɪᴄᴋ ᴏɴ ᴩᴀʏᴩᴀʟ ʟɪɴᴋ ᴛᴏ ᴍᴀᴋᴇ ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ.`, './media/donate.jpg', 'https://www.paypal.me/DineshValor', 'PᴀʏPᴀʟ', null, null, [[`ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m, {asLocation: true})
+★ SHILAKAN PENCET BUTTON DI BAWA.`, './media/donate.jpg', 'wa.me/6282239202895', 'Gopay', null, null, [[`ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m, {asLocation: true})
 }
 handler.help = ['donate']
 handler.tags = ['info']
